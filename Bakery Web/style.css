@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.head {
+    background-color: rgba(88, 82, 82, 0.68);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    height: 7vh;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+span {
+    float: right;
+    margin: 2vh 3vw;
+}
+
+ul {
+    list-style-type: none;
+    padding: 2vh 0 0 0;
+    margin: 0;
+    display: inline-block;
+
+}
+
+ul a {
+    text-decoration: none;
+    /* Removes underline from links */
+    color: rgb(251, 251, 251);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 15px;
+    transition: color 0.3s ease;
+}
+
+ul a:hover {
+    color: orange;
+    
+}
+
+.search_icon {
+    display: inline-block;
+}
+
+.search_icon:hover {
+    border: 0.5px solid white;
+    border-style: dotted;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    padding: 5vh 0vw;
+    border: 20px;
+    height: 20vh;
+    width: 40vw;
+    color: greenyellow;
+    float: right;
+}
+
+h3 {
+    padding: 2vh;
+    font-style: italic;
+    font-style: bold;
+    text-decoration: underline;
+    color: fuchsia;
+}
+
+.companyname {
+    text-align: center;
+    width: 600px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgba(52, 49, 49, 0.623);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 200px;
+    left: 27vw;
+    font-weight: bold;
+    font-size: xxx-large;
+    
+}
+
+.his {
+    position: absolute;
+    bottom: 30vh;
+    left: 4vw;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.history {
+    padding: 1vw;
+    border-radius: 2vh;
+    background-color: rgba(52, 49, 49, 0.311);
+    position: absolute;
+    bottom: 7vh;
+    left: 2vw;
+    right: 2vw;
+    font-size: 20px;
+    text-decoration: solid;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.footer {
+    height: auto;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px solid black;
+
+}
+
+.box1 {
+    margin: 10px;
+    padding: 10vh 3vw;
+    height: 200px;
+    width: 250px;
+    padding: 1vw;
+
+}
+
+.box2 {
+    margin: 10px;
+    padding: 10vh vw;
+    height: 200px;
+    width: 400px;
+    padding: 1vw;
+    
+}
+
+.box3 {
+    margin: 10px;
+    padding: 10vh 3vw;
+    height: 200px;
+    width: 250px;
+    padding: 1vw;
+    /* border-right: 2px solid black; */
+}
+
+.box4 {
+    margin: 10px;
+    padding: 10vh 3vw;
+    height: 200px;
+    width: 250px;
+    padding: 1vw;
+
+}
+
+.tagline {
+    padding: 10px 0 0 0;
+    font-size: larger;
+}
+
+.hd {
+    display: flex;
+}
+
+.a {
+    padding: 10px 0 0 0;
+}
+
+.menu {
+    margin: 1vw 0 0 0;
+    padding: 1vh 0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.cake,
+.cookie,
+.pastry,
+.beverages {
+    padding: 3vh 0 1vw 2vw;
+    font-size: larger;
+}
+
+.imgcake,
+.imgcookie,
+.imgpastry,
+.imgbeverages {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.cake1, .cake2, .cake3, .cake4, .cake5, .cake6,
+.cookie1, .cookie2, .cookie3, .cookie4, .cookie5, .cookie6,
+.pastry1, .pastry2, .pastry3, .pastry4,
+.pastry5, .pastry6, 
+.beverage1, .beverage2, .beverage3, .beverage4, .beverage5, .beverage6 {
+    margin: 1vw;
+    padding: 1vw;
+    border-color: bisque;
+    border-radius: 18px;
+    border: 2px solid bisque;
+    text-wrap: wrap;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cake1:hover, .cake2:hover, .cake3:hover, .cake4:hover, .cake5:hover, .cake6:hover,
+.cookie1:hover, .cookie2:hover, .cookie3:hover, .cookie4:hover, .cookie5:hover, .cookie6:hover,
+.pastry1:hover, .pastry2:hover, .pastry3:hover, .pastry4:hover, .pastry6:hover,
+.beverage1:hover, .beverage2:hover, .beverage3:hover, .beverage4:hover, .beverage5:hover, .beverage6:hover {
+    transform: scale(1.1);
+    transition-delay: 0s;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.input:hover {
+    transform: scaleX(300px);
+}
+
+.search input[type="text"] {
+    width: 190px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: width 0.4s ease;
+}
+
+.search:hover input[type="text"] {
+    width: 400px;
+}
+
+.imgcake::-webkit-scrollbar,
+.imgpastry::-webkit-scrollbar,
+.imgcookie::-webkit-scrollbar,
+.imgbeverages::-webkit-scrollbar {
+    display: none;
+}
+
+.social {
+    background-color: rgba(58, 57, 57, 0.74);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.a {
+    padding: 8px;
+}
+
+.b {
+    font-weight: bold;
+    padding: 4px;
+    text-align: center;
+}
+
+.extra {
+    background-color: burlywood;
+}
+
+.customerstories-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.customerstories {
+    display: flex;
+    overflow-x: auto;
+    /* Enables horizontal scrolling */
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    /* Smooth scrolling */
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    width: 90vw;
+    max-width: 1200px;
+}
+
+.story {
+    flex: 0 0 50%;
+    /* Make each box take up half of the container's width */
+    margin-right: 2vw;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    min-width: 400px;
+    max-width: 500px;
+    height: 30vh;
+    line-height: 1.8;
+    color: #333;
+    text-wrap: wrap;
+}
+
+/* Hide the scrollbar */
+.customerstories::-webkit-scrollbar {
+    display: none;
+}
+
+.customerstories {
+    scrollbar-width: none;
+
+}
+
+.customerstories-container {
+    margin-bottom: 40px;
+}
+
+.b,
+.da {
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: #333;
+}
+
+.name {
+    text-align: right;
+    font-style: italic;
+}
+
+.heading {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ai {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: width 0.3s ease;
+    width: 50px;
+}
+
+.ai:hover {
+    width: 130px;
+}
+
+.message-text {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #2683c9;
+    opacity: 0;
+    /* Hidden by default */
+    transition: opacity 0.3s ease;
+    /* Smooth transition */
+    white-space: nowrap;
+    /* Prevents text wrapping */
+}
+
+.ai:hover .message-text {
+    opacity: 1;
+    /* Shows text on hover */
+}
+
+.subhead {
+    font-style: oblique;
+    font-size: larger;
+}
+
+.logoend {
+    border-radius: 50%;
+}
+
+    @media(max-width:768px) {
+        .main {
+            height: 20vh;
+        }
+
+        .head {
+            font-size: 20px;
+        }
+    }
+
